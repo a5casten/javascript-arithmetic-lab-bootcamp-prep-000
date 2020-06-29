@@ -7,7 +7,7 @@ function add(a, b){
 }
 
 function subtract(a, b){
-  var difference = b-a
+  var difference = a-b
   console.log(difference)
   return difference
 }
