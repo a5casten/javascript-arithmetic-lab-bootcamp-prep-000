@@ -6,14 +6,24 @@ function add(a, b){
   return sum
 }
 
-function subtract(a,b){
+function subtract(a, b){
   var difference = b-a
   console.log(difference)
   return difference
 }
 
-function multiply(a,b) {
+function multiply(a, b) {
   var product = a*b
   console.log(product)
   return product
+}
+
+function divide(a, b){
+  var quotient = a/b
+  console.log(quotient)
+  return quotient
+}
+
+function increment(n) {
+  
 }
