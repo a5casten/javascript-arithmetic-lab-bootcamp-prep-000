@@ -35,7 +35,7 @@ function decrement(n) {
 }
 
 function makeInt(n) {
-  var integer = parseInt(n)
+  var integer = parseInt(n, 10)
   console.log(integer)
   return (integer)
 }
