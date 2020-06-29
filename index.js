@@ -33,3 +33,15 @@ function decrement(n) {
   console.log(n--)
   return n--
 }
+
+function makeInt(n) {
+  var integer = parseInt(n)
+  console.log(integer)
+  return (integer)
+}
+
+function preserveDecimal(n) {
+  var num = parseFloat(n)
+  console.log(num)
+  return num
+}
